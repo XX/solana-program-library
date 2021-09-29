@@ -1,0 +1,11 @@
+[workspace]
+members = [
+  "associated-token-account/program",
+  "memo/program",
+  "token/program",
+#  "utils/cgen",
+#  "utils/test-client",
+]
+
+[profile.dev]
+split-debuginfo = "unpacked"
