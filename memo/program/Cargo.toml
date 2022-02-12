@@ -12,11 +12,11 @@ no-entrypoint = []
 test-bpf = []
 
 [dependencies]
-solana-program = { git = "https://github.com/solana-labs/solana" }
+solana-program = { git = "https://github.com/XX/solana" }
 
 [dev-dependencies]
-solana-program-test = { git = "https://github.com/solana-labs/solana" }
-solana-sdk = { git = "https://github.com/solana-labs/solana" }
+solana-program-test = { git = "https://github.com/XX/solana" }
+solana-sdk = { git = "https://github.com/XX/solana" }
 
 [lib]
 crate-type = ["cdylib", "lib"]
